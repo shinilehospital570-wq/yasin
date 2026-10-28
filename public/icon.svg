@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#primaryGrad)"/>
+
+  <!-- Orange glowing accent badge -->
+  <circle cx="390" cy="120" r="48" fill="url(#accentGrad)" filter="url(#shadow)"/>
+  <path d="M375 120 L387 132 L408 108" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Stylized Shopping Cart & Monogram "F" in Fuad -->
+  <g transform="translate(64, 96)" filter="url(#shadow)">
+    <!-- Shopping cart lines -->
+    <path d="M 50 160 L 90 160 L 130 290 L 310 290 L 340 190 L 110 190" 
+          stroke="url(#accentGrad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="150" cy="330" r="22" fill="#ffffff"/>
+    <circle cx="290" cy="330" r="22" fill="#ffffff"/>
+    
+    <!-- Letter F monogram elegant structure -->
+    <path d="M 170 70 L 270 70 M 170 120 L 250 120 M 170 70 L 170 230" 
+          stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Subtitle Tag -->
+  <text x="256" y="445" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="34" font-weight="800" fill="#f8fafc" text-anchor="middle" letter-spacing="4">FUAD E-COMMERCE</text>
+  <text x="256" y="475" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="600" fill="#fb923c" text-anchor="middle" letter-spacing="2">SHINILE • ETHIOPIA</text>
+</svg>

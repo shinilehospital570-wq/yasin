@@ -1,0 +1,6 @@
+{
+  "name": "Fuad E-Commerce",
+  "description": "Dukaanka casriga ah ee Fuad E-Commerce — Shinile, Somali Region, Ethiopia. Alaab tayo leh, qiimo macquul ah, Telebirr, CBE, E-Birr iyo gaarsiin degdeg ah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
